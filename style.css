@@ -1,0 +1,66 @@
+/* Estilos para os containers com seções de texto */
+.container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Centraliza os botões horizontalmente */
+}
+
+/* Estilos do botão */
+.container button {
+  width: 100px; /* Ajuste a largura conforme necessário */
+}
+
+/* Estilos da figura */
+.figura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.figura img {
+  display: block;
+  margin: auto;
+  width: 15%;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Espaçamento entre o subtítulo e a imagem */
+h2 {
+  text-align: center;
+  font-size: 1.2em; /* Ajusta o tamanho da fonte conforme necessário */
+  margin-top: 10px; /* Adiciona um espaçamento superior menor */
+}
+
+/* Adicionando um estilo ao "footer" */
+#footer {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#mensagem {
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  overflow: auto;
+  max-width: 400px; /* Define a largura máxima da caixa de mensagem */
+  margin: 0 auto; /* Centraliza a caixa de mensagem na página */
+}
+
+/* Estilos para as seções ocultas */
+.hidden {
+  display: none;
+   /* Mantém as seções ocultas sobrepostas */
+  background-color: #fff; /* Adiciona um fundo branco para melhor visibilidade */
+  padding: 10px; /* Adiciona algum espaço ao redor das seções ocultas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destacar as seções ocultas */
+}
+
+
